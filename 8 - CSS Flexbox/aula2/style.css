@@ -1,0 +1,31 @@
+
+.container {
+    display: flex; 
+    flex-direction: row; 
+    
+    /* As opções Justify content para o flex-direction: row e collum são start, end e center, tendo o flex-start como padrão. Também temos o space-between e space-around*/
+
+    justify-content: space-between;
+    background-color: silver;
+}
+
+.caixa {
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}

@@ -1,0 +1,29 @@
+
+.container {
+    display: flex; 
+    flex-direction: row; /* O padrão do flex-direction é row */
+    flex-wrap: wrap; /* wrap serve para tirar o autoajust de tamanho e largura que o flex cria para os itens. nowrap é a padrão do flex-wrap */
+    flex-flow: row wrap-reverse; /* shorthand para direction e wrap no mesmo código, respectivamente */
+    background-color: gray;
+}
+
+.caixa {
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}

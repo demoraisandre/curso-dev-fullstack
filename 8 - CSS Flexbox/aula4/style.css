@@ -1,0 +1,42 @@
+
+.container {
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    height: 600px;
+    background-color: silver;
+}
+
+.caixa {
+    width: 70px;
+    height: 70px;
+}
+
+/* O order só funciona com o flex, e por padrão todos são zero, portanto qualquer valor maior que zero em um dos filhos colocará este filho no final se não definir nada nos outros filhos */
+
+
+/* O align-self só funciona nos filhos se o pai estiver sem align-items e align-content */
+
+/* Flex grow serve para aumentar os filhos com valor número, sendo o padrão o número 0*/
+
+.red {
+/*  align-self: center;*/
+    flex-grow: 2;
+    background-color: red;
+}
+
+.blue {
+    flex-grow: 3;
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+/*  order: -1; */
+    background-color: green;
+}

@@ -1,0 +1,38 @@
+
+.container {
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap;
+    
+    /* o align-items serve para alinhar os itens na vertical, com as opções de flex-start (padrão), flex-end e center e só funcionará para o flex-direction row*/
+
+    align-items: center;
+
+    /* Utilizar com o wrap. O align-content serve para alinhar os itens na horizonta */
+
+    align-content: center;
+
+    height: 600px;
+    background-color: silver;
+}
+
+.caixa {
+    width: 70px;
+    height: 70px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.green {
+    background-color: green;
+}
