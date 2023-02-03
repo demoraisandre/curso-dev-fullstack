@@ -1,0 +1,21 @@
+
+
+h1 {
+    color: var(--color-primary);
+    margin: var(--spacin);
+}
+
+h2 {
+    color: var(--color-secondary);
+    margin: var(--spacin);
+}
+
+h3 {
+    color: var(--color-secondary);
+    margin: var(--spacin);
+}
+
+p {
+    color: var(--color-primary);
+    margin: var(--spacin);
+}
